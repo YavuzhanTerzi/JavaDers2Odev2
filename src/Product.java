@@ -1,7 +1,21 @@
 public class Product {
 
+    public Product(int id, String name, String destription, double price, int stockAmount, String renk) {
+        System.out.println("yapıcı blok çalıştı");
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.destription = destription;
+        this.stockAmount = stockAmount;
+        this.renk = renk;
+    }
+
+    public Product() {
+
+    }
+
     // attribute or field
-    private int id ;
+    private int id;
     private String name;
     private String destription;
     private double price;
@@ -58,9 +72,8 @@ public class Product {
     }
 
     public String getKod() {
-        return this.name.substring(0,1) + id;
+        return this.name.substring(0, 1) + id;
     }
-
 
 
 }

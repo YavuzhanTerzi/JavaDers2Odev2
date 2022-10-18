@@ -38,6 +38,7 @@ public class Main {
 
         System.out.println(product.getKod());
         System.out.println("--------------------------Ders33= Getter and Setter ");
+        System.out.println("--------------------------Ders34= Constructor ");
 
 
 
