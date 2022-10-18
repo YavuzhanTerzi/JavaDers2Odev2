@@ -14,31 +14,30 @@ public class Main {
         customerManager.Uptade();
 
         System.out.println("--------------------------Ders29 = Değer ve referans Tipleri");
-        int[] sayilar1 = new int[]{1,2,3};
-        int[] sayilar2 = new int[]{4,5,6};
+        int[] sayilar1 = new int[]{1, 2, 3};
+        int[] sayilar2 = new int[]{4, 5, 6};
         sayilar2 = sayilar1;
-        sayilar1[0] = 10 ;
+        sayilar1[0] = 10;
         System.out.println(sayilar2[0]);
         System.out.println("--------------------------Ders30= ReCap Demo Classlarla Çalışmak");
 
         DortIslem dortIslem = new DortIslem();
-        int sonuc = dortIslem.Carp(6,7);
+        int sonuc = dortIslem.Carp(6, 7);
         System.out.println(sonuc);
 
         System.out.println("--------------------------Ders31= Field ve Attribute ile Çalışmak");
         Product product = new Product();
-        product.name="Laptop";
-        product.id=1;
-        product.destription="Asus Laptop";
-        product.price=5000;
-        product.stockAmount=3;
+        product.setName("Laptop");
+        product.setId(1);
+        product.setDestription("Asus Laptop");
+        product.setPrice(5000);
+        product.setStockAmount(3);
 
         ProductManager productManager = new ProductManager();
         productManager.Add(product);
 
-
-
-
+        System.out.println(product.getKod());
+        System.out.println("--------------------------Ders33= Getter and Setter ");
 
 
 
