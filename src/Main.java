@@ -39,6 +39,15 @@ public class Main {
         System.out.println(product.getKod());
         System.out.println("--------------------------Ders33= Getter and Setter ");
         System.out.println("--------------------------Ders34= Constructor ");
+        System.out.println("--------------------------Ders35= Method Overloading ");
+        System.out.println("--------------------------Ders36= Inheritance Yapısını Anlamak ");
+
+        Customer customer = new Customer();
+        Employee employee= new Employee();
+
+        System.out.println("--------------------------Ders37= Inheritance Demo");
+        KrediUI krediUI= new KrediUI();
+        krediUI.KrediHesapla(new AskerKrediManager());
 
 
 
